@@ -1,0 +1,163 @@
+* {
+    
+   
+} 
+
+body{
+    background-image: url(static/pawel-czerwinski-z7prq6BtPE4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:auto; 
+    font-family: 'Cinzel', serif;
+}
+
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 6px solid purple;
+    border-radius: 10px;
+    width: 50%;
+    height: 250px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 20%; 
+    background-color: black;
+    border-style: ridge;
+    box-shadow: 10px 10px black;
+    background-image: url(static/pawel-czerwinski-z7prq6BtPE4-unsplash.jpg);
+    
+    
+    
+}
+
+input {
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    font-size: x-large;
+    
+}
+
+button{
+    color: #000000;
+     width: 25%;
+     height: 20%; 
+    margin-left: 40%;
+    /* border-style: outset; */
+    box-shadow: 5px 5px black;
+    background-image: linear-gradient( to right, rgb(0, 123, 255), rgb(196, 4, 196));
+
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+a:hover {
+    color: purple;
+}
+
+.container2 {
+     
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 6px solid purple;
+        border-radius: 10px;
+        width: 50%;
+        height: 250px;
+        padding: 10px;
+        margin-left: 25%;
+        margin-top: 20%; 
+        border-style: ridge;
+        box-shadow: 10px 10px black;
+        background-image: linear-gradient( to right, rgb(0, 123, 255), rgb(196, 4, 196));
+        font-size: xx-large;
+       
+        
+}
+
+.container3 {
+    color: white;
+        display: flex;
+        flex-direction: column;
+        border: 6px solid purple;
+        border-radius: 10px;
+        width: 50%;
+        height: 250px;
+        padding: 10px;
+        margin-left: 25%;
+        margin-top: 20%; 
+        border-style: ridge;
+        box-shadow: 10px 10px black;
+        background-image: linear-gradient( to right, rgb(0, 123, 255), rgb(196, 4, 196));
+        font-size: xx-large;
+        justify-content: center;
+        align-items: center;
+}
+
+table {
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-top: 25%;
+   border: 1px solid blue;
+   font-size: 2em;
+    
+
+}
+ tr{ display: flex;
+justify-content: space-evenly;
+flex-direction: row;}
+
+
+
+
+
+   
+
+@media only screen and (min-width: 300px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    body{
+    
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+@media only screen and (min-width: 800px){
+    body{
+       
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    ul {
+        display: block;
+
+    }
+    li {
+        display: block;
+    }
+}
+    
